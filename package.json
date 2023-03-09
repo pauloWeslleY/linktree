@@ -1,0 +1,21 @@
+{
+	"name": "linktree",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "lite-server",
+		"sass": "sass --watch --style=compressed styles/scss/index.scss:styles/css/index.min.css"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/pauloWeslleY/linktree.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/pauloWeslleY/linktree/issues"
+	},
+	"homepage": "https://github.com/pauloWeslleY/linktree#readme"
+}
