@@ -1,24 +1,69 @@
+@import "mobile.css";
+
 /* [] Styles for Page */
+* {
+	margin: 0;
+	text-decoration: none;
+}
 
 html,
 body {
-	height: 100%;
-}
+	--black: hsl(240, 6%, 13%);
+	--gray: hsl(240, 9%, 89%);
 
-h1 {
-	color: red;
-	font: bold 2.9rem Arial, Helvetica, sans-serif;
+	height: 100%;
+	font-family: "Roboto", sans-serif;
+	-webkit-font-smoothing: antialiased;
 }
 
 body {
 	display: grid;
 	place-items: center;
-	background-color: #2e3840;
+	background-color: var(--black);
+}
+
+main {
+	background: url("./../assets/background.svg");
+	width: 375px;
+	height: 812px;
+}
+
+.container {
+	max-width: 250px;
+	margin-inline: auto;
+	text-align: center;
+
+	color: var(--gray);
+}
+
+h1 {
+	font-size: 1.5rem;
+
+	margin-top: 1.5rem;
 }
 
 a {
-	text-decoration: none;
-	color: #f9dbbb;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 2rem;
+	color: var(--gray);
+
+	margin-top: 0.25rem;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 0.75rem;
+}
+
+p {
+	margin-top: 2rem;
+}
+
+ul {
+	margin-top: 4rem;
+	list-style: none;
+
+	padding: 0;
+
+	display: flex;
+	justify-content: center;
+	gap: 0.5rem;
 }
