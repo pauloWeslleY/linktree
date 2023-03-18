@@ -7,6 +7,34 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="author" content="Paulo Weslley de Lima Firmino" />
+		<meta
+			name="keywords"
+			content="Paulo Weslley, paulo weslley, weslleywebdesign, pauloWeslley,
+			paulo-WeslleY, weslleyweb, weslleyfront, Weslley de Lima Firmino,
+			Weslley Web Designer, CV, portfolio, Front-End web developer,
+			web design, designer, web, HTML5, CSS3, JS, JavaScript, ReactJs,
+			Sass, react, TS, TypeScript"
+		/>
+		<meta
+			name="description"
+			content="Website contendo os links de todos os sites de Paulo Weslley de Lima Firmino"
+		/>
+		<meta property="og:type" content="website" />
+		<meta
+			property="og:url"
+			content="http://pauloweslley.github.io/linktree"
+		/>
+		<meta property="og:title" content="Weslley Lima | Front-End Developer" />
+		<meta
+			property="og:description"
+			content="Website contendo os links de todos os sites de Paulo Weslley de Lima Firmino"
+		/>
+		<meta
+			property="og:image"
+			content="http://weslleylima.vercel.app/images/paulo-wes.jpg"
+		/>
+		<meta property="og:locale" content="pt_BR" />
 		<title>Weslley Front End | LinkTree</title>
 
 		<link
@@ -14,13 +42,13 @@
 			rel="stylesheet"
 		/>
 
-		<link rel="stylesheet" href="styles/index.css" />
+		<link rel="stylesheet" href="styles/css/index.min.css" />
 		<link rel="shortcut icon" href="images/favicon.png" type="image/png" />
 	</head>
 	<body>
 		<main>
 			<div class="container">
-				<div class="avatar">
+				<section class="avatar">
 					<span>
 						<img src="assets/stamp.svg" alt="Selo Rocketseat" />
 					</span>
@@ -29,10 +57,10 @@
 						src="images/profile.jpg"
 						alt="Foto Pessoal"
 					/>
-				</div>
+				</section>
 
-				<section>
-					<h1 id="userName">Weslley Lima</h1>
+				<section class="biography">
+					<h1 id="userName">Weslley</h1>
 
 					<a
 						id="userLink"
@@ -43,12 +71,19 @@
 						<span id="userLogin">pauloWeslleY</span>
 					</a>
 
-					<p id="userBio">
-						An instructor focused on helping people start programming for
-						web
-					</p>
+					<section class="biography__hero">
+						<h2>
+							Olá, Me chamo Weslley sou
+							<span id="userBio">
+								An instructor focused on helping people start
+								programming for web
+							</span>
+							, Trabalho com criação de Landing Page e sites pra
+							divulgação para pequenas e media empresa
+						</h2>
+					</section>
 
-					<section class="link__hero">
+					<section class="biography__link_hero">
 						<a
 							href="https://weslleylima.vercel.app"
 							target="_blank"
@@ -128,8 +163,7 @@
 				</section>
 			</div>
 		</main>
-
-		<footer>
+		<footer class="footer__bar">
 			<p>Created ♥ by <span>Weslley Lima</span></p>
 		</footer>
 

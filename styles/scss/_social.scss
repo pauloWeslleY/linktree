@@ -1,0 +1,36 @@
+@use "variables";
+
+//[] Social Media Link
+.social__hero {
+	margin-top: 4rem;
+	margin-bottom: 0;
+
+	display: flex;
+	flex-direction: column;
+
+	h2 {
+		margin-bottom: 1.2rem;
+		font-size: 1.2rem;
+	}
+
+	ul {
+		list-style: none;
+		padding: 0;
+
+		display: flex;
+		justify-content: center;
+		gap: 1.3rem;
+	}
+
+	.icon__social {
+		width: 2rem;
+		height: 2rem;
+		object-fit: cover;
+
+		transition: all 0.5s ease-in-out 200ms;
+
+		&:hover {
+			transform: translateY(-6px);
+		}
+	}
+}
