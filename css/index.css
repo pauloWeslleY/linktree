@@ -44,6 +44,8 @@ main {
 	width: 100vw;
 	height: 100vh;
 	min-height: 812px;
+
+	padding-block: 4rem;
 }
 
 .container {
@@ -68,10 +70,6 @@ a {
 	justify-content: center;
 	align-items: center;
 	gap: 0.75rem;
-}
-
-p {
-	margin-top: 2rem;
 }
 
 footer {

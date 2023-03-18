@@ -1,0 +1,31 @@
+@use "variables";
+
+//! Footer
+
+.footer__bar {
+	font-size: 1.3rem;
+	font-weight: 500;
+
+	color: variables.$gray;
+
+	display: flex;
+	margin-bottom: 2rem;
+}
+
+@media (max-width: 425px) {
+	footer.footer__bar {
+		margin-top: 14.5rem;
+	}
+}
+
+@media (min-width: 728px) {
+	footer.footer__bar {
+		margin-top: 7.5rem;
+	}
+}
+
+@media (min-width: 1024px) {
+	footer.footer__bar {
+		margin-top: 8rem;
+	}
+}

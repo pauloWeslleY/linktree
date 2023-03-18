@@ -1,0 +1,55 @@
+@use "global";
+
+* {
+	margin: 0;
+	text-decoration: none;
+
+	::-webkit-scrollbar {
+		width: 0.5rem;
+	}
+
+	::-webkit-scrollbar-track {
+		background: global.$gray;
+	}
+	::-webkit-scrollbar-thumb {
+		background: global.$black;
+		border-radius: 2.4rem;
+	}
+}
+
+html,
+body {
+	height: 100%;
+	font-family: "Roboto", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	overflow-x: hidden;
+}
+
+body {
+	display: grid;
+	place-items: center;
+	background-color: global.$black;
+}
+
+main {
+	background: url("../../assets/background.svg") no-repeat center/cover;
+	width: 100vw;
+	height: 100vh;
+	min-height: 812px;
+
+	.container {
+		max-width: 525px;
+		margin-inline: auto;
+		text-align: center;
+
+		color: global.$gray;
+	}
+}
+
+@media (max-width: 425px) {
+	main {
+		.container {
+			max-width: 250px;
+		}
+	}
+}
