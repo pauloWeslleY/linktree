@@ -1,6 +1,6 @@
 const LinksSocialMedia = {
 	github: "pauloWeslleY",
-	instagram: "weslley.lima_13",
+	instagram: "weslleylima_13",
 	facebook: "weslley.lima.9834",
 	twitter: "@PauloWeslley15",
 	linkedin: "in/paulo-weslley-de-lima-firmino-17851a17b/",

@@ -9,10 +9,10 @@
 	}
 
 	::-webkit-scrollbar-track {
-		background: global.$gray;
+		background: global.$black-100;
 	}
 	::-webkit-scrollbar-thumb {
-		background: global.$black;
+		background: global.$gray;
 		border-radius: 2.4rem;
 	}
 }
